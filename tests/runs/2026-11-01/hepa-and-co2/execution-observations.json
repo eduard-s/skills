@@ -1,0 +1,24 @@
+{
+  "request": "Will an ordinary HEPA air purifier lower the CO2 in my stuffy bedroom? Please explain simply; science only, no forum report.",
+  "search_date": "2026-11-01",
+  "queries": 5,
+  "artifacts": [
+    "evidence-summary.md",
+    "research-notes.md",
+    "url-checks.json",
+    "source-policy.snapshot.json"
+  ],
+  "anecdotes_opt_out_honored": true,
+  "scientific_support": "Official EPA HTML technical guidance, not a newly performed experimental review",
+  "scientific_inference_labeled": true,
+  "url_policy": "Included citations passed default exact-host/path rules; no policy expansion",
+  "limits": [
+    "PubMed CAPTCHA",
+    "Linked EPA technical PDF outside approved path",
+    "No direct bedroom CO2 intervention study verified",
+    "Only agency guidance from one institution; not independent replications",
+    "No actual bedroom measurements"
+  ],
+  "skill_sha256": "1109b82a966b35713272ebab455b6f6f33870085f756a0ff03f49354cbbff034",
+  "policy_sha256": "0ec4edc3f063b679a4a337a8ed0b2a2bf8e47f7d586bcf72d5262afbf0b81714"
+}
