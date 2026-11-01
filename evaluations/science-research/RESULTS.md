@@ -10,6 +10,12 @@ Validation for this revision confirmed that all content files are Markdown, loca
 
 A fresh offline request about the latest blue-light-glasses research and Reddit experiences stopped at the capability limit, gave an explicitly unexecuted search plan, and invented no studies or cases. Saved results: [response](runs/2026-11-01/static-markdown-regression/evidence-summary.md), [research plan](runs/2026-11-01/static-markdown-regression/research-notes.md), [anecdotal report](runs/2026-11-01/static-markdown-regression/anecdotal-report.md). No runtime validator or additional software is needed to use the skill.
 
+## Live run of the current Markdown skill
+
+On 1 November 2026, an assistant used the current skill and all four references to research blue-light glasses for screen-related eye strain. Live search and browser reading recovered the Cochrane full text, a newer positive survey and an original trial abstract. The run distinguished the survey's reported improvement from a controlled treatment effect, recorded reporting inconsistencies, avoided double-counting the trial inside the review, and separated four readable forum accounts. An advertising reply was excluded.
+
+Saved reports: [scientific brief](runs/2026-11-01/blue-light-glasses-live/evidence-summary.md), [research notes](runs/2026-11-01/blue-light-glasses-live/research-notes.md), [personal experiences](runs/2026-11-01/blue-light-glasses-live/anecdotal-report.md). This was one assistant execution, not a native Claude/ChatGPT installation test or a comparative accuracy benchmark. Newer candidates that did not pass access/status verification remain excluded, so coverage is not exhaustive.
+
 ## Earlier behavioral runs
 
 Date: **1 November 2026** (Asia/Dubai). Independent research agents exercised these cases before the source policy was converted from JSON to Markdown. The research instructions and source restrictions are retained. The saved reports are historical examples, not a claim that the current static skill enforces rules through code.
