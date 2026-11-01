@@ -1,4 +1,0 @@
-interface:
-  display_name: "Science Research"
-  short_description: "Approved evidence and separate real-world anecdotes"
-  default_prompt: "Use $science-research to investigate my question with approved scientific sources, a concise explanation, and a separate anecdotal report."

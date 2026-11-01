@@ -4,7 +4,7 @@ Show practical experiences and questions worth checking, not what usually happen
 
 ## Collection
 
-- Use only `anecdote-candidate` hosts/paths in `source-policy.json`, or named forum additions explicitly approved by the user for this run.
+- Use only hosts and paths under Anecdotal candidates in `source-policy.md`, or named forum additions explicitly approved by the user for this run.
 - Search neutral terms plus positive, negative, mixed, and no-change terms. Look on Reddit and an eligible non-Reddit forum when relevant. Readable firsthand content matters more than filling a quota.
 - Open the original post and the specific comment where possible. Record permalink, community, publication date if visible, access date, and how much of the thread could be read.
 - Prefer relevant first-person descriptions. Label second-hand accounts and generally omit them. Exclude clear advertising, affiliate promotions, copied stories, bots, and inaccessible relevant content.

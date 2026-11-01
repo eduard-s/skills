@@ -2,9 +2,9 @@
 
 ## Applying the source policy
 
-`source-policy.json` is the single list of eligible exact hosts and paths. Subdomains are not implicitly included. A scientific source passes only when all four gates pass:
+`source-policy.md` is the single list of eligible exact hosts and paths. Subdomains are not implicitly included. A scientific source passes only when all four gates pass:
 
-1. **Location:** The final URL matches a `science-candidate` rule or an explicit addition authorized by the user for this run. Resolve DOI links and validate the destination too. A redirect to a new publisher or CDN does not inherit approval. Record any blocked destination.
+1. **Location:** The final URL matches an entry under Scientific candidates in the source policy, or an explicit addition authorized by the user for this run. Resolve DOI links and validate the destination too. A redirect to a new publisher or CDN does not inherit approval. Record any blocked destination.
 2. **Document:** It is an eligible scientific document as defined below, rather than news, a press release, opinion, advertising, a forum post, or a search page. This applies even on an eligible host.
 3. **Verification:** You opened enough of it to verify the claim, publication status, and important limitations. Check publisher notices and linked corrections/retractions; use PubMed publication types where relevant. If status cannot be checked, record “not verified,” reduce confidence as warranted, and do not describe it as cleared.
 4. **Support:** Its design, population/system, comparator, outcome, and time scale support the particular statement. A sound paper can still be irrelevant to the question.
@@ -34,7 +34,7 @@ Use general web search with site restrictions if a database interface is unavail
 | Physics, space, materials | [NASA ADS](https://ui.adsabs.harvard.edu/) / [SciX](https://scixplorer.org/) for discovery, [NIST](https://www.nist.gov/publications), NASA technical reports | Eligible original papers, reproducibility, measurement uncertainty; established models versus speculation |
 | Computing, engineering | [ACM](https://dl.acm.org/), [IEEE](https://ieeexplore.ieee.org/), NIST technical reports | Independent benchmarks, peer-reviewed proceedings/journals, setup and realistic workloads |
 
-These are navigation suggestions, not extra allowlist entries. A linked index can be used for discovery; the document it finds still needs the JSON and document checks. For fields or local authorities poorly covered by the preset, disclose that scope limit and propose named additions rather than treating the preset as the whole literature.
+These are navigation suggestions, not extra allowlist entries. A linked index can be used for discovery; the document it finds still needs the source-policy and document checks. For fields or local authorities poorly covered by the preset, disclose that scope limit and propose named additions rather than treating the preset as the whole literature.
 
 ## Search plan and stopping
 

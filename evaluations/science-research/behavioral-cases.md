@@ -1,6 +1,6 @@
 # Behavioral evaluation cases
 
-Run these with a fresh agent context that reads the actual skill and relevant references. Give only the request and raw material, not the expected answer. Save the resulting reports in an isolated temporary folder. Review actual claims, links, exclusions, and uncertainty; keyword checks are not evidence of research quality.
+Run these with a fresh agent context that reads `skills/science-research/SKILL.md` and the relevant Markdown references. Give only the request and raw material, not the expected answer. Save reports in an isolated temporary folder. Review actual claims, links, exclusions, and uncertainty; keyword checks are not evidence of research quality. These are manual behavior checks, not executable tests.
 
 ## Live general-reader request
 
