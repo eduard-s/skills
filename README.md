@@ -7,6 +7,7 @@ A collection of reusable Markdown skills for Claude and ChatGPT. Each skill live
 | Skill | Purpose |
 | --- | --- |
 | [Science Research](skills/science-research/README.md) | Research everyday science questions using approved sources. Give a concise explanation, detailed evidence notes, and a separate Reddit/forum anecdote report. |
+| [LLM Counterfactual Lab](skills/llm-counterfactual-lab/README.md) | Test what changes a model's answer. Build matched experiments that separate sensitivity to evidence from sensitivity to wording, answer order, and other cues. |
 
 ## Use a skill
 
